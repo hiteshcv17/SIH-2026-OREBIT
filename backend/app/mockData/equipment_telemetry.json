@@ -1,0 +1,165 @@
+{
+  "dataset": "equipment_telemetry_and_reliability",
+  "refresh_interval_sec": 15,
+  "total_fleet_units": 5,
+  "fleet": [
+    {
+      "machine_id": "EX-101",
+      "equipment_id": "EX-101",
+      "name": "CAT 6040 Hydraulic Shovel",
+      "category": "Excavator",
+      "type": "Excavator",
+      "model": "CAT 6040",
+      "assigned_zone": "North Pit Alpha",
+      "zone": "North Pit Alpha",
+      "status": "Operational",
+      "health_score": 98,
+      "availability_pct": 94.5,
+      "rul_hours": 680,
+      "rul_confidence": 0.96,
+      "location_lat": 20.4852,
+      "location_lng": 85.3214,
+      "mtbf_hours": 320,
+      "mttr_hours": 4.2,
+      "telemetry": {
+        "engine_rpm": 1800,
+        "hydraulic_temp_c": 74.5,
+        "coolant_temp_c": 82.0,
+        "vibration_mm_s": 0.02,
+        "fuel_consumption_l_h": 145.2,
+        "operating_hours": 4820
+      },
+      "maintenance": {
+        "last_serviced": "2026-09-10",
+        "next_service_due": "2026-10-10",
+        "active_faults": []
+      }
+    },
+    {
+      "machine_id": "HT-304",
+      "equipment_id": "HT-304",
+      "name": "Komatsu 930E Haul Truck",
+      "category": "Haul Truck",
+      "type": "Haul Truck",
+      "model": "Komatsu 930E",
+      "assigned_zone": "Main Haul Road 2",
+      "zone": "Main Haul Road 2",
+      "status": "Warning",
+      "health_score": 72,
+      "availability_pct": 82.1,
+      "rul_hours": 118,
+      "rul_confidence": 0.88,
+      "location_lat": 20.4795,
+      "location_lng": 85.3355,
+      "mtbf_hours": 185,
+      "mttr_hours": 8.5,
+      "telemetry": {
+        "engine_rpm": 2100,
+        "hydraulic_temp_c": 91.2,
+        "coolant_temp_c": 96.8,
+        "vibration_mm_s": 0.14,
+        "fuel_consumption_l_h": 210.0,
+        "operating_hours": 7410
+      },
+      "maintenance": {
+        "last_serviced": "2026-08-28",
+        "next_service_due": "2026-09-28",
+        "active_faults": ["E-302: Transmission Temp High", "P-104: Brake Retarder Wear"]
+      }
+    },
+    {
+      "machine_id": "CR-02",
+      "equipment_id": "CR-02",
+      "name": "Metso Superior Primary Gyratory Crusher",
+      "category": "Primary Crusher",
+      "type": "Primary Crusher",
+      "model": "Metso Superior",
+      "assigned_zone": "Crushing Plant B",
+      "zone": "Crushing Plant B",
+      "status": "Operational",
+      "health_score": 91,
+      "availability_pct": 96.8,
+      "rul_hours": 850,
+      "rul_confidence": 0.92,
+      "location_lat": 20.4720,
+      "location_lng": 85.3410,
+      "mtbf_hours": 450,
+      "mttr_hours": 3.8,
+      "telemetry": {
+        "bearing_temp_c": 68.4,
+        "motor_load_pct": 78.5,
+        "vibration_mm_s": 0.05,
+        "throughput_tph": 1850,
+        "operating_hours": 12450
+      },
+      "maintenance": {
+        "last_serviced": "2026-09-15",
+        "next_service_due": "2026-10-15",
+        "active_faults": []
+      }
+    },
+    {
+      "machine_id": "DR-09",
+      "equipment_id": "DR-09",
+      "name": "Epiroc Pit Viper 271",
+      "category": "Drill Rig",
+      "type": "Drill Rig",
+      "model": "Epiroc PV-271",
+      "assigned_zone": "South Pit Extension",
+      "zone": "South Pit Extension",
+      "status": "Critical",
+      "health_score": 58,
+      "availability_pct": 74.0,
+      "rul_hours": 42,
+      "rul_confidence": 0.94,
+      "location_lat": 20.4680,
+      "location_lng": 85.3480,
+      "mtbf_hours": 140,
+      "mttr_hours": 12.0,
+      "telemetry": {
+        "compressor_temp_c": 98.6,
+        "rotation_pressure_bar": 185,
+        "vibration_mm_s": 0.22,
+        "penetration_rate_m_h": 24.5,
+        "operating_hours": 6210
+      },
+      "maintenance": {
+        "last_serviced": "2026-08-12",
+        "next_service_due": "2026-09-12",
+        "active_faults": ["F-901: Rotary Head Bearing Excessive Vibration", "RUL Critical: Imminent Bearing Seizure (<48h)"]
+      }
+    },
+    {
+      "machine_id": "HT-308",
+      "equipment_id": "HT-308",
+      "name": "CAT 793F Haul Truck",
+      "category": "Haul Truck",
+      "type": "Haul Truck",
+      "model": "CAT 793F",
+      "assigned_zone": "North Pit Alpha",
+      "zone": "North Pit Alpha",
+      "status": "Operational",
+      "health_score": 95,
+      "availability_pct": 91.0,
+      "rul_hours": 520,
+      "rul_confidence": 0.95,
+      "location_lat": 20.4910,
+      "location_lng": 85.3180,
+      "mtbf_hours": 290,
+      "mttr_hours": 5.1,
+      "telemetry": {
+        "engine_rpm": 1950,
+        "hydraulic_temp_c": 76.0,
+        "coolant_temp_c": 84.5,
+        "vibration_mm_s": 0.04,
+        "fuel_consumption_l_h": 198.5,
+        "operating_hours": 3950
+      },
+      "maintenance": {
+        "last_serviced": "2026-09-02",
+        "next_service_due": "2026-10-02",
+        "active_faults": []
+      }
+    }
+  ]
+}

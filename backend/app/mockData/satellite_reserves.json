@@ -1,0 +1,101 @@
+{
+  "dataset": "satellite_band_ratio_reserves",
+  "sensor": "Sentinel-2 & Landsat-9 OLI Multispectral",
+  "band_ratios": ["B11/B12 (Ferrous Oxide)", "B4/B2 (Hematite Index)", "B8A/B11 (Alteration Zone)"],
+  "bounding_box": {
+    "min_lat": 20.4500,
+    "max_lat": 20.5200,
+    "min_lng": 85.3000,
+    "max_lng": 85.3800
+  },
+  "grid_points": [
+    {
+      "id": "SAT-P001",
+      "lat": 20.4852,
+      "lng": 85.3214,
+      "elevation_m": 420.5,
+      "iron_grade_pct": 64.2,
+      "reserve_probability": 0.94,
+      "band_ratio_val": 2.45,
+      "zone_name": "North Pit Alpha",
+      "rock_formation": "Banded Iron Formation (BIF)"
+    },
+    {
+      "id": "SAT-P002",
+      "lat": 20.4870,
+      "lng": 85.3240,
+      "elevation_m": 415.8,
+      "iron_grade_pct": 62.8,
+      "reserve_probability": 0.89,
+      "band_ratio_val": 2.31,
+      "zone_name": "North Pit Alpha",
+      "rock_formation": "Hematite Ore Zone"
+    },
+    {
+      "id": "SAT-P003",
+      "lat": 20.4791,
+      "lng": 85.3350,
+      "elevation_m": 395.0,
+      "iron_grade_pct": 58.4,
+      "reserve_probability": 0.76,
+      "band_ratio_val": 1.98,
+      "zone_name": "Central Ridge Bench",
+      "rock_formation": "Goethitic Ore"
+    },
+    {
+      "id": "SAT-P004",
+      "lat": 20.4720,
+      "lng": 85.3410,
+      "elevation_m": 380.2,
+      "iron_grade_pct": 65.5,
+      "reserve_probability": 0.96,
+      "band_ratio_val": 2.62,
+      "zone_name": "South Pit Extension",
+      "rock_formation": "High-Grade Blue Dust Hematite"
+    },
+    {
+      "id": "SAT-P005",
+      "lat": 20.4680,
+      "lng": 85.3480,
+      "elevation_m": 365.4,
+      "iron_grade_pct": 52.1,
+      "reserve_probability": 0.58,
+      "band_ratio_val": 1.54,
+      "zone_name": "South Pit Extension",
+      "rock_formation": "Shale / Waste Boundary"
+    },
+    {
+      "id": "SAT-P006",
+      "lat": 20.4910,
+      "lng": 85.3180,
+      "elevation_m": 435.0,
+      "iron_grade_pct": 61.0,
+      "reserve_probability": 0.83,
+      "band_ratio_val": 2.18,
+      "zone_name": "North Pit Beta",
+      "rock_formation": "Specular Hematite"
+    },
+    {
+      "id": "SAT-P007",
+      "lat": 20.4650,
+      "lng": 85.3520,
+      "elevation_m": 350.0,
+      "iron_grade_pct": 47.3,
+      "reserve_probability": 0.42,
+      "band_ratio_val": 1.25,
+      "zone_name": "East Waste Dumps",
+      "rock_formation": "Ferruginous Shale"
+    },
+    {
+      "id": "SAT-P008",
+      "lat": 20.4830,
+      "lng": 85.3310,
+      "elevation_m": 408.3,
+      "iron_grade_pct": 63.7,
+      "reserve_probability": 0.91,
+      "band_ratio_val": 2.39,
+      "zone_name": "Central Ridge Bench",
+      "rock_formation": "BIF Ore Body"
+    }
+  ]
+}
