@@ -1,0 +1,60 @@
+{
+  "dataset": "blast_fragmentation_analysis",
+  "measurement_type": "Drone Optical Photogrammetry & Image AI",
+  "blast_records": [
+    {
+      "blast_id": "BL-2026-089",
+      "timestamp": "2026-09-24T10:30:00Z",
+      "bench_location": "North Pit Bench 410",
+      "explosive_used": "ANFO Heavy Blend (70/30)",
+      "total_explosive_kg": 14200,
+      "blasted_rock_tons": 48500,
+      "powder_factor_kg_t": 0.293,
+      "fragmentation_results": {
+        "p80_size_mm": 240,
+        "fines_less_10mm_pct": 14.5,
+        "optimum_range_10_300mm_pct": 74.2,
+        "oversize_greater_500mm_pct": 11.3
+      },
+      "vibration_ppv_mm_s": 4.8,
+      "flyrock_distance_m": 42,
+      "status": "Verified - Optimal Fragmentation"
+    },
+    {
+      "blast_id": "BL-2026-088",
+      "timestamp": "2026-09-22T14:15:00Z",
+      "bench_location": "South Bench 380",
+      "explosive_used": "Emulsion Matrix 100",
+      "total_explosive_kg": 18500,
+      "blasted_rock_tons": 52000,
+      "powder_factor_kg_t": 0.355,
+      "fragmentation_results": {
+        "p80_size_mm": 380,
+        "fines_less_10mm_pct": 8.2,
+        "optimum_range_10_300mm_pct": 62.8,
+        "oversize_greater_500mm_pct": 29.0
+      },
+      "vibration_ppv_mm_s": 7.2,
+      "flyrock_distance_m": 65,
+      "status": "Warning - Excessive Oversize (Secondary Blasting Required)"
+    },
+    {
+      "blast_id": "BL-2026-087",
+      "timestamp": "2026-09-18T11:00:00Z",
+      "bench_location": "Central Ridge Bench 395",
+      "explosive_used": "ANFO Standard",
+      "total_explosive_kg": 11000,
+      "blasted_rock_tons": 39000,
+      "powder_factor_kg_t": 0.282,
+      "fragmentation_results": {
+        "p80_size_mm": 210,
+        "fines_less_10mm_pct": 16.8,
+        "optimum_range_10_300mm_pct": 76.4,
+        "oversize_greater_500mm_pct": 6.8
+      },
+      "vibration_ppv_mm_s": 3.9,
+      "flyrock_distance_m": 35,
+      "status": "Verified - Superior Fragmentation"
+    }
+  ]
+}

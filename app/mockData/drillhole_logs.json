@@ -1,0 +1,75 @@
+{
+  "dataset": "drillhole_exploration_logs",
+  "standards": "UNFC / CRIRSCO Compliant",
+  "drillholes": [
+    {
+      "hole_id": "DH-G2-0101",
+      "stage": "G2",
+      "pit_zone": "North Pit Alpha",
+      "lat": 20.4855,
+      "lng": 85.3218,
+      "collar_elevation_m": 421.0,
+      "total_depth_m": 150.0,
+      "azimuth": 0,
+      "dip": -90,
+      "drilled_date": "2026-03-14",
+      "intervals": [
+        { "from_m": 0.0, "to_m": 12.5, "lithology": "Overburden / Soil", "fe_pct": 22.4, "sio2_pct": 54.1, "al2o3_pct": 12.3 },
+        { "from_m": 12.5, "to_m": 85.0, "lithology": "Hard Hematite Ore", "fe_pct": 65.2, "sio2_pct": 2.8, "al2o3_pct": 1.4 },
+        { "from_m": 85.0, "to_m": 130.0, "lithology": "Friable Blue Dust Ore", "fe_pct": 66.8, "sio2_pct": 1.9, "al2o3_pct": 1.1 },
+        { "from_m": 130.0, "to_m": 150.0, "lithology": "Banded Hematite Jasper", "fe_pct": 42.1, "sio2_pct": 38.5, "al2o3_pct": 4.2 }
+      ]
+    },
+    {
+      "hole_id": "DH-G3-0204",
+      "stage": "G3",
+      "pit_zone": "Central Ridge Bench",
+      "lat": 20.4795,
+      "lng": 85.3355,
+      "collar_elevation_m": 396.2,
+      "total_depth_m": 180.0,
+      "azimuth": 45,
+      "dip": -60,
+      "drilled_date": "2026-05-22",
+      "intervals": [
+        { "from_m": 0.0, "to_m": 25.0, "lithology": "Ferruginous Laterite", "fe_pct": 48.6, "sio2_pct": 18.2, "al2o3_pct": 14.5 },
+        { "from_m": 25.0, "to_m": 110.0, "lithology": "Goethitic Hematite Ore", "fe_pct": 61.4, "sio2_pct": 4.5, "al2o3_pct": 2.8 },
+        { "from_m": 110.0, "to_m": 180.0, "lithology": "Cherty BIF", "fe_pct": 38.2, "sio2_pct": 42.0, "al2o3_pct": 3.1 }
+      ]
+    },
+    {
+      "hole_id": "DH-G3-0312",
+      "stage": "G3",
+      "pit_zone": "South Pit Extension",
+      "lat": 20.4725,
+      "lng": 85.3415,
+      "collar_elevation_m": 381.5,
+      "total_depth_m": 200.0,
+      "azimuth": 0,
+      "dip": -90,
+      "drilled_date": "2026-07-08",
+      "intervals": [
+        { "from_m": 0.0, "to_m": 18.0, "lithology": "Soil & Alluvium", "fe_pct": 18.5, "sio2_pct": 62.0, "al2o3_pct": 10.1 },
+        { "from_m": 18.0, "to_m": 145.0, "lithology": "High-Grade Specular Hematite", "fe_pct": 67.1, "sio2_pct": 1.5, "al2o3_pct": 0.9 },
+        { "from_m": 145.0, "to_m": 200.0, "lithology": "Shale Footwall", "fe_pct": 28.4, "sio2_pct": 49.5, "al2o3_pct": 18.2 }
+      ]
+    },
+    {
+      "hole_id": "DH-G2-0118",
+      "stage": "G2",
+      "pit_zone": "North Pit Beta",
+      "lat": 20.4915,
+      "lng": 85.3184,
+      "collar_elevation_m": 436.5,
+      "total_depth_m": 120.0,
+      "azimuth": 180,
+      "dip": -75,
+      "drilled_date": "2026-08-19",
+      "intervals": [
+        { "from_m": 0.0, "to_m": 8.0, "lithology": "Topsoil", "fe_pct": 25.0, "sio2_pct": 52.0, "al2o3_pct": 11.0 },
+        { "from_m": 8.0, "to_m": 92.0, "lithology": "Hard Laminated Ore", "fe_pct": 63.8, "sio2_pct": 3.2, "al2o3_pct": 1.9 },
+        { "from_m": 92.0, "to_m": 120.0, "lithology": "Quartzite Footwall", "fe_pct": 12.0, "sio2_pct": 82.5, "al2o3_pct": 2.1 }
+      ]
+    }
+  ]
+}
